@@ -1,0 +1,49 @@
+body{
+    font-size: large;
+}
+.root{
+    display : flex;
+    flex-direction: column;
+    gap: 1rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.root .message-box{
+    border-radius: .8rem;
+    flex-direction: column;
+    align-self: center;
+    height: 65vh;
+    width: 90%;
+    background-color: rgb(179, 228, 228);
+    overflow : scroll;
+}
+/* .root #message-input{
+    align-self: center;
+    width: 90%;
+} */
+.root #bottom{
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap : 0.5rem;
+}
+.root #bottom #message-input{
+    width : 18rem;
+}
+
+.message-sent{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    width : 30vw;
+}
+
+.message-received{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-self: flex-end;
+    width : 30vw;
+}
