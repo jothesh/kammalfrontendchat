@@ -14,7 +14,6 @@ function getAllMessages() {
         });
     })
 };
-
 function sendMessage(){
     // const name = document.querySelector('#user-name-input').value
     const message = document.querySelector('#text-input').value;
